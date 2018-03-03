@@ -1,0 +1,48 @@
+게임프레임 : 50fps
+화면사이즈 : 640x480
+컬러 비트 : 32bit
+
+# 화면 이동영역 ---------------------------
+
+#define dfRANGE_MOVE_TOP	50
+#define dfRANGE_MOVE_LEFT	10
+#define dfRANGE_MOVE_RIGHT	630
+#define dfRANGE_MOVE_BOTTOM	470
+
+위 좌표에 가지 못하게 해야하며,
+해당 좌표에 닿는 경우 움직임을 멈추어야 함.
+(작거나 같으면 멈춤)
+
+예) 왼쪽 상단으로 이동 중 왼쪽 범위에 걸리면
+위로 타고 이동하는게 아니며, 그자리에 멈춰야 함.
+
+왜냐면!! 서버에서 멈출것이기 때문에.. 서버랑 똑같이 하기 위함임.
+
+
+
+
+# 스프라이트 중점 정보 ----------------------------
+
+캐릭터 스프라이트 - 71, 90
+이펙트 스프라이트 - 70, 70
+HP 게이지 - 0, 0
+그림자 - 32, 4
+
+
+
+
+# 애니메이션 프레임 딜레이 ------------------------
+
+#define dfDELAY_STAND	5
+#define dfDELAY_MOVE	4
+#define dfDELAY_ATTACK1	3
+#define dfDELAY_ATTACK2	4
+#define dfDELAY_ATTACK3	4
+#define dfDELAY_EFFECT	3
+
+각 액션별로 해당 애니메이션 루프 시 위 수치만큼 프레임을 넘긴 후
+다음 애니메이션 스프라이트로 넘어가야 함.
+
+예) Stand .  1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 으로..
+
+

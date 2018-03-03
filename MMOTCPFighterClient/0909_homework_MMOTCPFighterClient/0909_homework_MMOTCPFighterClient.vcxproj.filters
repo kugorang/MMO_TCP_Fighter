@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{7d8584cd-9584-441e-8d35-1aa85fd18129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Network">
+      <UniqueIdentifier>{2e5f11d7-c5d0-4978-8cf8-c5cb78fac8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{7c20fdab-5e54-4f66-91de-a567adc27810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GameObject">
+      <UniqueIdentifier>{d8f8e1a4-ad66-4e52-94c2-b5e7c9ea3426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameSystem">
+      <UniqueIdentifier>{ec32835e-ee66-4838-9493-2d4d1fe55300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GameSystem">
+      <UniqueIdentifier>{341d4822-ca8d-4b64-ab09-54c6600ae7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SpriteData">
+      <UniqueIdentifier>{aa9fc632-9675-42eb-9329-c5ad10c8e101}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MakePacket.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDefine.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializationBuffer.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="WSAAsyncSelect.h">
+      <Filter>헤더 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSkip.h">
+      <Filter>헤더 파일\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenDib.h">
+      <Filter>헤더 파일\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDib.h">
+      <Filter>헤더 파일\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="0909_homework_MMOTCPFighterClient.h">
+      <Filter>헤더 파일\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSkip.cpp">
+      <Filter>소스 파일\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenDib.cpp">
+      <Filter>소스 파일\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDib.cpp">
+      <Filter>소스 파일\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MakePacket.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializationBuffer.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="WSAAsyncSelect.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="0909_homework_MMOTCPFighterClient.cpp">
+      <Filter>소스 파일\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="0909_homework_MMOTCPFighterClient.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="0909_homework_MMOTCPFighterClient.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SpriteData\_Map.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_L_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_L_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_L_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_L_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_R_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_R_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_R_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack1_R_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_L_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_L_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_L_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_L_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_R_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_R_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_R_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack2_R_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_L_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_L_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_L_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_L_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_L_05.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_L_06.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_R_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_R_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_R_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_R_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_R_05.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Attack3_R_06.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\HPGuage.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_05.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_06.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_07.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_08.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_09.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_10.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_11.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_L_12.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_04.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_05.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_06.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_07.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_08.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_09.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_10.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_11.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Move_R_12.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Shadow.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Stand_L_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Stand_L_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Stand_L_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Stand_R_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Stand_R_02.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Stand_R_03.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\xSpark_1.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\xSpark_2.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\xSpark_3.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\xSpark_4.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+    <Image Include="SpriteData\Tile_01.bmp">
+      <Filter>리소스 파일\SpriteData</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
